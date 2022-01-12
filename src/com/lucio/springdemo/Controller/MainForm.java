@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
+@RequestMapping("mainForm")
 public class MainForm {
 
 	@RequestMapping("/showForm")
-	public String showPage() {
+	public String mainForm() {
 		return "mainForm";
 	}
 
